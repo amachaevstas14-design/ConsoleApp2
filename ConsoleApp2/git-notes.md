@@ -4,7 +4,9 @@
 ### Commands
 ...
 ### Output (git log --graph --oneline --all)
-...
+* docs: task 15 - update readme and notes
+* docs: task 15 - add git notes
+* Initial commit
 ### What I learned
 ...
 
@@ -28,3 +30,7 @@
 
 ## Task 50 — bisect
 ...
+### Output (git log --graph --oneline --all)
+* docs: task 15 - update readme and notes
+* docs: task 15 - add git notes
+* Initial commit

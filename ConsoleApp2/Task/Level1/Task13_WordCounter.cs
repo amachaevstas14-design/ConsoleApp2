@@ -42,7 +42,7 @@ namespace ConsoleApp2.Task.Level1
             }
         }
 
-        private static Dictionary<string, int> CountWords(string text)
+        public static Dictionary<string, int> CountWords(string text)
         {
             string[] words = text.Split(
                 (char[])null,
