@@ -30,7 +30,7 @@ namespace ConsoleApp2.Task.Level1
                 : "Это не палиндром.");
         }
 
-        private static bool IsPalindrome(string text)
+        public static bool IsPalindrome(string text)
         {
             string cleaned = ExtractLetters(text);
 

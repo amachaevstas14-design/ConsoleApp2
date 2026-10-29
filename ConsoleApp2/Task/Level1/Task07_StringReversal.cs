@@ -26,7 +26,7 @@ namespace ConsoleApp2.Task.Level1
             Console.WriteLine($"Результат: {Reverse(input)}");
         }
 
-        private static string Reverse(string text)
+        public static string Reverse(string text)
         {
             char[] chars = new char[text.Length];
 
