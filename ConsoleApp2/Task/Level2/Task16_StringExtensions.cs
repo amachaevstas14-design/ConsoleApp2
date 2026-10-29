@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp2.Task.Level2
 {
-    internal class Task16_StringExtensions : ITask
+    public class Task16_StringExtensions : ITask
     {
         public string Title { get; } = "Методы расширения для string";
 
