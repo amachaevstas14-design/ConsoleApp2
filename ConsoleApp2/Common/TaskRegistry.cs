@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.Collections.Generic;
 
 using ConsoleApp2.Task.Level1;
+using ConsoleApp2.Task.Level2;
 
 namespace ConsoleApp2.Common
 {
@@ -26,7 +27,8 @@ namespace ConsoleApp2.Common
         new TaskEntry(1, 11, CreateTask11),
         new TaskEntry(1, 12, CreateTask12),
         new TaskEntry(1, 13, CreateTask13),
-        new TaskEntry(1, 14, CreateTask14)
+        new TaskEntry(1, 14, CreateTask14),
+        new TaskEntry(2,16, CreateTask16)
         };
 
         public static IReadOnlyList<TaskEntry> GetTasks(int level)
@@ -118,6 +120,11 @@ namespace ConsoleApp2.Common
         private static ITask CreateTask14()
         {
             return new Task14_AgeCalculator();
+        }
+
+        private static ITask CreateTask16()
+        {
+            return new Task16_StringExtensions();
         }
     }
 }
