@@ -66,6 +66,9 @@
     <Compile Include="Task\Level1\Task13_WordCounter.cs" />
     <Compile Include="Task\Level1\Task14_AgeCalculator.cs" />
     <Compile Include="Task\Level2\Task16_StringExtensions.cs" />
+    <Compile Include="Task\Level2\Task17_StringBuilderVsConcatenation.cs" />
+    <Compile Include="Task\Level2\Task18_TryParseVsTryCatch.cs" />
+    <Compile Include="Task\Level2\Task19CustomStackAndQueue.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
