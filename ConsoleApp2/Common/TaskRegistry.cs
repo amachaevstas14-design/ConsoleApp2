@@ -36,7 +36,8 @@ namespace ConsoleApp2.Common
         new TaskEntry(2,21, CreateTask21),
         new TaskEntry(2,22, CreateTask22),
         new TaskEntry(2,23,CreateTask23),
-        new TaskEntry(2,24, CreateTask24)
+        new TaskEntry(2,24, CreateTask24),
+        new TaskEntry(2,25, CreateTask25)
 
         };
 
@@ -174,6 +175,11 @@ namespace ConsoleApp2.Common
         private static ITask CreateTask24()
         {
             return new Task24_Animals();
+        }
+
+        private static ITask CreateTask25()
+        {
+            return new Task25_Shapes();
         }
     }
 }
