@@ -31,7 +31,12 @@ namespace ConsoleApp2.Common
         new TaskEntry(2,16, CreateTask16),
         new TaskEntry(2,17,CreateTask17 ),
         new TaskEntry(2,18, CreateTask18),
-        new TaskEntry(2,19, CreateTask19)
+        new TaskEntry(2,19, CreateTask19),
+        new TaskEntry(2,20, CreateTask20),
+        new TaskEntry(2,21, CreateTask21),
+        new TaskEntry(2,22, CreateTask22),
+        new TaskEntry(2,23,CreateTask23),
+        new TaskEntry(2,24, CreateTask24)
 
         };
 
@@ -146,6 +151,29 @@ namespace ConsoleApp2.Common
             return new Task19_CustomStackAndQueue();
         }
 
-        
+        private static ITask CreateTask20()
+        {
+            return new Task20_GenericMethods();
+        }
+
+        private static ITask CreateTask21()
+        {
+            return new Task21_EnumDaysOfWeek();
+        }
+
+        private static ITask CreateTask22()
+        {
+            return new Task22_ParamsSum();
+        }
+
+        private static ITask CreateTask23()
+        {
+            return new Task23_NullableOperators();
+        }
+
+        private static ITask CreateTask24()
+        {
+            return new Task24_Animals();
+        }
     }
 }
