@@ -73,4 +73,5 @@ namespace ConsoleApp2.Task.Level2
         Sunday
     }
 
+
 }

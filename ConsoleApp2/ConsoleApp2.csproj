@@ -65,10 +65,16 @@
     <Compile Include="Task\Level1\Task12_Palindrome.cs" />
     <Compile Include="Task\Level1\Task13_WordCounter.cs" />
     <Compile Include="Task\Level1\Task14_AgeCalculator.cs" />
+    <Compile Include="Task\Level2\EnumDaysOfWeek.cs" />
     <Compile Include="Task\Level2\Task16_StringExtensions.cs" />
     <Compile Include="Task\Level2\Task17_StringBuilderVsConcatenation.cs" />
     <Compile Include="Task\Level2\Task18_TryParseVsTryCatch.cs" />
     <Compile Include="Task\Level2\Task19CustomStackAndQueue.cs" />
+    <Compile Include="Task\Level2\Task20_GeneriMethodsc.cs" />
+    <Compile Include="Task\Level2\Task22_ParamsSum.cs" />
+    <Compile Include="Task\Level2\Task23_NullableOperators.cs" />
+    <Compile Include="Task\Level2\Task24_Animals.cs" />
+    <Compile Include="Task\Level2\Task25_Shapes.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
