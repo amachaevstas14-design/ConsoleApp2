@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp2.Task.Level2
 {
-    internal sealed class Task17_StringBuilderVsConcatenation : ITask
+    public sealed class Task17_StringBuilderVsConcatenation : ITask
     {
         private const int NumberCount = 10_000;
 
