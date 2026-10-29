@@ -28,7 +28,11 @@ namespace ConsoleApp2.Common
         new TaskEntry(1, 12, CreateTask12),
         new TaskEntry(1, 13, CreateTask13),
         new TaskEntry(1, 14, CreateTask14),
-        new TaskEntry(2,16, CreateTask16)
+        new TaskEntry(2,16, CreateTask16),
+        new TaskEntry(2,17,CreateTask17 ),
+        new TaskEntry(2,18, CreateTask18),
+        new TaskEntry(2,19, CreateTask19)
+
         };
 
         public static IReadOnlyList<TaskEntry> GetTasks(int level)
@@ -126,5 +130,22 @@ namespace ConsoleApp2.Common
         {
             return new Task16_StringExtensions();
         }
+
+        private static ITask CreateTask17()
+        {
+            return new Task17_StringBuilderVsConcatenation();
+        }
+
+        private static ITask CreateTask18()
+        {
+            return new Task18_TryParseVsTryCatch();
+        }
+
+        private static ITask CreateTask19()
+        {
+            return new Task19_CustomStackAndQueue();
+        }
+
+        
     }
 }
