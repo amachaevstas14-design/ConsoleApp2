@@ -51,7 +51,8 @@ namespace ConsoleApp2.Common
         new TaskEntry(3,36, CreateTask36),
         new TaskEntry(3, 37, CreateTask37),
         new TaskEntry(3,38, CreateTask38),
-        new TaskEntry(3,39, CreateTask39)
+        new TaskEntry(3,39, CreateTask39),
+        new TaskEntry(3,40, CreateTask40)
 
         };
 
@@ -259,6 +260,11 @@ namespace ConsoleApp2.Common
         private static ITask CreateTask39()
         {
             return new Task39_YieldReturn();
+        }
+
+        private static ITask CreateTask40()
+        {
+            return new Task40_AsyncDownload();
         }
     }
 }
