@@ -86,6 +86,10 @@
     <Compile Include="Task\Level2\Task34_LinqWordGroups.cs" />
     <Compile Include="Task\Level3\Task36_Duplicates.cs" />
     <Compile Include="Task\Level3\Task37_FibonacciMemoization.cs" />
+    <Compile Include="Task\Level3\Task38_ListVsLinkedList.cs" />
+    <Compile Include="Task\Level3\Task39_YieldReturn.cs" />
+    <Compile Include="Task\Level3\Task40_AsyncDownload.cs" />
+    <Compile Include="Task\Level3\Task41_ParallelAsync.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
