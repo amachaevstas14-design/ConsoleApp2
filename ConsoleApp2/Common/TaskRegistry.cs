@@ -44,7 +44,8 @@ namespace ConsoleApp2.Common
         new TaskEntry(2,29, CreateTask29),
         new TaskEntry(2,30, CreateTask30),
         new TaskEntry(2,31, CreateTask31),
-        new TaskEntry(2,32, CreateTask32)
+        new TaskEntry(2,32, CreateTask32),
+        new TaskEntry(2,33, CreateTask33)
 
         };
 
@@ -222,6 +223,11 @@ namespace ConsoleApp2.Common
         private static ITask CreateTask32()
         {
             return new Task32_Temperature();
+        }
+
+        private static ITask CreateTask33()
+        {
+            return new Task33_LinqEmployees();
         }
     }
 }
