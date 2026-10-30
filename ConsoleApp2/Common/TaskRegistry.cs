@@ -41,7 +41,8 @@ namespace ConsoleApp2.Common
         new TaskEntry(2,26, CreateTask26),
         new TaskEntry(2,27, CreateTask27),
         new TaskEntry(2,28, CreateTask28),
-        new TaskEntry(2,29, CreateTask29)
+        new TaskEntry(2,29, CreateTask29),
+        new TaskEntry(3,30, CreateTask30)
 
         };
 
@@ -204,6 +205,11 @@ namespace ConsoleApp2.Common
         private static ITask CreateTask29()
         {
             return new Task29_NoificationFactory();
+        }
+
+        private static ITask CreateTask30()
+        {
+            return new Task30_BankAccount();
         }
     }
 }
