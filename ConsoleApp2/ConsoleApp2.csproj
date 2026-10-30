@@ -91,6 +91,7 @@
     <Compile Include="Task\Level3\Task40_AsyncDownload.cs" />
     <Compile Include="Task\Level3\Task41_ParallelAsync.cs" />
     <Compile Include="Task\Level3\Task42_CancellationToken.cs" />
+    <Compile Include="Task\Level3\Task43_ExceptionHierarchy.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
