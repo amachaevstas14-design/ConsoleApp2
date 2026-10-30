@@ -39,7 +39,8 @@ namespace ConsoleApp2.Common
         new TaskEntry(2,24, CreateTask24),
         new TaskEntry(2,25, CreateTask25),
         new TaskEntry(2,26, CreateTask26),
-        new TaskEntry(2,27, CreateTask27)
+        new TaskEntry(2,27, CreateTask27),
+        new TaskEntry(2,28, CreateTask28)
 
         };
 
@@ -192,6 +193,11 @@ namespace ConsoleApp2.Common
         private static ITask CreateTask27()
         {
             return new Task27_StudentComparers();
+        }
+
+        private static ITask CreateTask28()
+        {
+            return new Task28_PointEquality();
         }
     }
 }
