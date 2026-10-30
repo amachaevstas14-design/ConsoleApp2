@@ -84,14 +84,13 @@
     <Compile Include="Task\Level2\Task32_Temperature.cs" />
     <Compile Include="Task\Level2\Task33_LinqEmployees.cs" />
     <Compile Include="Task\Level2\Task34_LinqWordGroups.cs" />
+    <Compile Include="Task\Level3\Task36_Duplicates.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="git-notes.md" />
     <None Include="README.md" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Task\Level3\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
