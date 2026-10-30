@@ -50,6 +50,7 @@ namespace ConsoleApp2.Common
         new TaskEntry(2,34, CreateTask34),
         new TaskEntry(3,36, CreateTask36),
         new TaskEntry(3, 37, CreateTask37),
+        new TaskEntry(3,38, CreateTask38)
 
         };
 
@@ -247,6 +248,11 @@ namespace ConsoleApp2.Common
         private static ITask CreateTask37()
         {
             return new Task37_FibonacciMemoization();
+        }
+
+        private static ITask CreateTask38()
+        {
+            return new Task38_ListVsLinkedList();
         }
     }
 }
