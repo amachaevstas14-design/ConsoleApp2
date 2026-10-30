@@ -82,6 +82,8 @@
     <Compile Include="Task\Level2\Task30_BankAccount.cs" />
     <Compile Include="Task\Level2\Task31_DisposeUsing.cs" />
     <Compile Include="Task\Level2\Task32_Temperature.cs" />
+    <Compile Include="Task\Level2\Task33_LinqEmployees.cs" />
+    <Compile Include="Task\Level2\Task34_LinqWordGroups.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
