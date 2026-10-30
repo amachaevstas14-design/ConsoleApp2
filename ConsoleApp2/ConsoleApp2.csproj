@@ -92,6 +92,7 @@
     <Compile Include="Task\Level3\Task41_ParallelAsync.cs" />
     <Compile Include="Task\Level3\Task42_CancellationToken.cs" />
     <Compile Include="Task\Level3\Task43_ExceptionHierarchy.cs" />
+    <Compile Include="Task\Level3\Task44_TaskManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

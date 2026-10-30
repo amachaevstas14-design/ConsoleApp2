@@ -8,6 +8,7 @@ using System.Collections.Generic;
 using ConsoleApp2.Task.Level1;
 using ConsoleApp2.Task.Level2;
 using ConsoleApp2.Task.Level3;
+using ConsoleApp2.Task.Level3.ConsoleApp2.Task.Level3;
 
 namespace ConsoleApp2.Common
 {
@@ -56,6 +57,7 @@ namespace ConsoleApp2.Common
         new TaskEntry(3,41,CreateTask41),
         new TaskEntry(3,42, CreateTask42),
         new TaskEntry (3,43, CreateTask43),
+        new TaskEntry(3,44, CreateTask44)
 
         };
 
@@ -283,6 +285,11 @@ namespace ConsoleApp2.Common
         private static ITask CreateTask43()
         {
             return new Task43_ExceptionHierarchy();
+        }
+
+        private static ITask CreateTask44()
+        {
+            return new Task44_TaskManager();
         }
     }
 }
