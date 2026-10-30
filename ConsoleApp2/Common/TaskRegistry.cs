@@ -53,7 +53,8 @@ namespace ConsoleApp2.Common
         new TaskEntry(3,38, CreateTask38),
         new TaskEntry(3,39, CreateTask39),
         new TaskEntry(3,40, CreateTask40),
-        new TaskEntry(3,41,CreateTask41)
+        new TaskEntry(3,41,CreateTask41),
+        new TaskEntry(3,42, CreateTask42)
 
         };
 
@@ -271,6 +272,11 @@ namespace ConsoleApp2.Common
         private static ITask CreateTask41()
         {
             return  new Task41_ParallelAsync();
+        }
+
+        private static ITask CreateTask42()
+        {
+            return new Task42_CancellationToken();
         }
     }
 }
