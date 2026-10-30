@@ -78,6 +78,9 @@
     <Compile Include="Task\Level2\Task26_DiscountStrategy.cs" />
     <Compile Include="Task\Level2\Task27_StudentComparers.cs" />
     <Compile Include="Task\Level2\Task28_PointEquality.cs" />
+    <Compile Include="Task\Level2\Task29_NoificationFactory.cs" />
+    <Compile Include="Task\Level2\Task30_BankAccount.cs" />
+    <Compile Include="Task\Level2\Task31_DisposeUsing.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
