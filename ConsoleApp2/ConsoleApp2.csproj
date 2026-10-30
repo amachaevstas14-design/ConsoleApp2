@@ -75,6 +75,8 @@
     <Compile Include="Task\Level2\Task23_NullableOperators.cs" />
     <Compile Include="Task\Level2\Task24_Animals.cs" />
     <Compile Include="Task\Level2\Task25_Shapes.cs" />
+    <Compile Include="Task\Level2\Task26_DiscountStrategy.cs" />
+    <Compile Include="Task\Level2\Task27_StudentComparers.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
