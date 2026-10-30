@@ -93,6 +93,7 @@
     <Compile Include="Task\Level3\Task42_CancellationToken.cs" />
     <Compile Include="Task\Level3\Task43_ExceptionHierarchy.cs" />
     <Compile Include="Task\Level3\Task44_TaskManager.cs" />
+    <Compile Include="Task\Level3\Task45_Library.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
