@@ -57,7 +57,8 @@ namespace ConsoleApp2.Common
         new TaskEntry(3,41,CreateTask41),
         new TaskEntry(3,42, CreateTask42),
         new TaskEntry (3,43, CreateTask43),
-        new TaskEntry(3,44, CreateTask44)
+        new TaskEntry(3,44, CreateTask44),
+        new TaskEntry(3,45, CreateTask45)
 
         };
 
@@ -290,6 +291,11 @@ namespace ConsoleApp2.Common
         private static ITask CreateTask44()
         {
             return new Task44_TaskManager();
+        }
+
+        private static ITask CreateTask45()
+        {
+            return new Task45_Library();
         }
     }
 }
